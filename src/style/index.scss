@@ -1,16 +1,188 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-    body{
-        background: #BDBDBD;
-    }
-    
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+  background-color: green;
+}
+.card1 {
+  border-color: black;
+  border: 1px solid;
+  font-size: 160px;
+  line-height: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  height: 520px;
+  width: 370px;
+  position: absolute;
+  left: 436px;
+  top: 436px;
+  &:before {
+    font-size: 130px;
+    position: absolute;
+    top: -140px;
+    left: 20px;
+  }
+  &:after {
+    font-size: 130px;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+  }
+  &.spade:before,
+  &.spade:after {
+    content: "\2660";
+  }
+  &.heart:before,
+  &.heart:after {
+    content: "\2665";
+    color: red;
+  }
+  &.diamond:before,
+  &.diamond:after {
+    content: "\2666";
+    color: red;
+  }
+  &.club:before,
+  &.club:after {
+    content: "\2663";
+  }
+}
+.card2 {
+  border-color: black;
+  border: 1px solid;
+  font-size: 160px;
+  line-height: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  height: 520px;
+  width: 370px;
+  position: absolute;
+  left: 520px;
+  top: 390px;
+  &:before {
+    font-size: 130px;
+    position: absolute;
+    top: -140px;
+    left: 20px;
+  }
+  &:after {
+    font-size: 130px;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+  }
+  &.spade:before,
+  &.spade:after {
+    content: "\2660";
+  }
+  &.heart:before,
+  &.heart:after {
+    content: "\2665";
+    color: red;
+  }
+  &.diamond:before,
+  &.diamond:after {
+    content: "\2666";
+    color: red;
+  }
+  &.club:before,
+  &.club:after {
+    content: "\2663";
+  }
+}
+.card3 {
+  border-color: black;
+  border: 1px solid;
+  font-size: 160px;
+  line-height: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  height: 520px;
+  width: 370px;
+  position: absolute;
+  left: 485px;
+  top: 330px;
+  &:before {
+    font-size: 130px;
+    position: absolute;
+    top: -140px;
+    left: 20px;
+  }
+  &:after {
+    font-size: 130px;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+  }
+  &.spade:before,
+  &.spade:after {
+    content: "\2660";
+  }
+  &.heart:before,
+  &.heart:after {
+    content: "\2665";
+    color: red;
+  }
+  &.diamond:before,
+  &.diamond:after {
+    content: "\2666";
+    color: red;
+  }
+  &.club:before,
+  &.club:after {
+    content: "\2663";
+  }
+}
+.card {
+  border-color: black;
+  border: 1px solid;
+  font-size: 160px;
+  line-height: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  height: 520px;
+  width: 370px;
+  position: absolute;
+  left: 450px;
+  top: 385px;
+  &:before {
+    font-size: 130px;
+    position: absolute;
+    top: -140px;
+    left: 20px;
+  }
+  &:after {
+    font-size: 130px;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+  }
+  &.spade:before,
+  &.spade:after {
+    content: "\2660";
+  }
+  &.heart:before,
+  &.heart:after {
+    content: "\2665";
+    color: red;
+  }
+  &.diamond:before,
+  &.diamond:after {
+    content: "\2666";
+    color: red;
+  }
+  &.club:before,
+  &.club:after {
+    content: "\2663";
+  }
+}
